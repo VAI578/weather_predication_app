@@ -16,7 +16,7 @@ def get_weather(city):
 
     return temp, weather
 
-@app.route("/vai", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def home():
     weather_data = None
 
